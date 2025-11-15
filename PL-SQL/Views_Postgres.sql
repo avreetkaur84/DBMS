@@ -304,17 +304,6 @@ refresh materialized view mv_random_tabl;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -415,15 +404,6 @@ refresh materialized view mv_random_tabl;
 
 
 
-
-
-
-
-
-
-
-
-
 --------------------------------------------EXPERIMENT 05 (HARD LEVEL)------------------------------
 CREATE VIEW vW_ORDER_SUMMARY
 AS
@@ -490,20 +470,3 @@ AS
 SELECT *FROM vW_STORE_SALES_DATA;
 
 INSERT INTO vW_STORE_SALES_DATA(EMPID, NAME, DEPT) VALUES (5, 'Aman', 'Admin'); --VIOLATION CONDITION
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
