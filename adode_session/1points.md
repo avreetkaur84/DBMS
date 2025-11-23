@@ -11,7 +11,6 @@
 8. Null is a garbage value, so if you will write null==null, then it will give false as garbage value can never be same.
 9. Inner join is also natural join.
 10. Cross join is cartesian product, means every row of tablw1 will be mapped to every row of table 2.
-
 11. In case, it is mandatory to give alias. In if else, it is optional
 
 
