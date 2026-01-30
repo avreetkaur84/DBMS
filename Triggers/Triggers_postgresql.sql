@@ -64,8 +64,6 @@ EXECUTE FUNCTION function_name();
 
 
 
-
-
 --------------SAMPLE TABLE FOR DEMONSTRATION------------------
 CREATE TABLE student (
     id SERIAL PRIMARY KEY,
@@ -105,21 +103,6 @@ EXECUTE FUNCTION fn_student_insert();
 
 --TRIGGER EXECUTION
 INSERT INTO student(name, age, class) VALUES ('Aman', 19, '11th');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -185,12 +168,6 @@ If a student row with id=1, name='Aman', age=20 is deleted:
 
 
 
-
-
-
-
-
-
 --------------------------NEW MAGIC TABLE-------------------------
 
 - Refers to the row after the triggering event.
@@ -217,10 +194,6 @@ If you insert ('Rohit', 19, '10th') into the student table:
 
 
 --SIMILARLY WE CAN CREATE AFTER TRIGGER FOR UPDATE, DELETE AND OTHER OPERATIONS.
-
-
-
-
 
 
 
@@ -261,56 +234,12 @@ SELECT *FROM STUDENT;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----------------EXPERIMENT 08----------------------------------
 
 ----------------------MEDIUM LEVEL PROBLEM----------------------------
 --REQUIREMENTS: DESIGN A TRIGGER WHICH:
 --1. WHENEVER THERE IS A INSERTION ON STUDENT TABLE THEN, THE CURRENTLY INSERTED OR DELETED 
 --ROW SHOULD BE PRINTED AS IT AS ON THE OUTPUT CONSOLE WINDOW.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -342,20 +271,6 @@ $$
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----------------------HARD LEVEL PROBLEM----------------------------
 
 /*
@@ -369,24 +284,6 @@ Whenever an employee is deleted from tbl_employee, a record should be added to t
 
 The solution must use PostgreSQL triggers.
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
